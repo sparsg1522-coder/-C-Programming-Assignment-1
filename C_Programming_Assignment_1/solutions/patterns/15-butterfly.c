@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void){int n;scanf("%d",&n);for(int i=1;i<=n;i++){int k=(i<= (n+1)/2)?i:n-i+1;for(int j=0;j<k;j++)putchar('*');for(int s=0;s<2*(n-k);s++)putchar(' ');for(int j=0;j<k;j++)putchar('*');putchar('\n');}return 0;}
